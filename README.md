@@ -1,6 +1,11 @@
 # Ближайшие бары
 
-[FIXME. Здесь будет описание проекта]
+На сайте data.mos.ru есть список московских баров в формате JSON.
+Данный скрипт рассчитывает:
+
+* самый большой бар;
+* самый маленький бар;
+* самый близкий бар (текущие gps-координаты пользователь вводит с клавиатуры).
 
 # Как запустить
 
@@ -10,8 +15,12 @@
 
 ```#!bash
 
-$ python bars.py # possibly requires call of python3 executive instead of just python
-# FIXME вывести пример ответа скрипта
+$ python bars.py 
+Input a path to json-file:bars.json
+Input your longitude and latitude:0 0
+The biggest bar: Спорт бар «Красная машина»
+The smallest bar: БАР. СОКИ
+The closest bar: Staropramen
 
 ```
 
